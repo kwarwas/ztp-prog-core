@@ -1,0 +1,27 @@
+akka {
+    actor {
+        provider = cluster
+        deployment {
+            /OrderActor {
+                router = round-robin-pool
+                nr-of-instances = 6
+                cluster {
+                    enabled = on
+                    allow-local-routees = on
+                    max-nr-of-instances-per-node = 4
+                    use-role = worker
+                }
+            }
+        }
+    }
+    remote {
+        dot-netty.tcp {
+            port = 0
+            hostname = 127.0.0.1
+        }
+    }
+    cluster {
+        seed-nodes = ["akka.tcp://ActorCluster@127.0.0.1:8081"]
+        roles = [worker]
+    }
+}
