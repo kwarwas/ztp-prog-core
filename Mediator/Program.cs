@@ -60,7 +60,7 @@ namespace Mediator
 
     class Program
     {
-        static async Task Main(string[] args)
+        static async Task Main()
         {
             var serviceProvider = new ServiceCollection()
                 .AddMediatR(Assembly.GetExecutingAssembly())

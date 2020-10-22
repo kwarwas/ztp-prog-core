@@ -8,7 +8,7 @@ namespace RemoteActor.Local
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var config = ConfigurationFactory.ParseString(@"
             akka {

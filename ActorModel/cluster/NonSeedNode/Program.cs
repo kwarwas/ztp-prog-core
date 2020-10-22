@@ -19,7 +19,7 @@ namespace NonSeedNode
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             using (var system = ActorSystem.Create("ActorCluster", HoconLoader.FromFile("config.hocon")))
             {

@@ -6,7 +6,7 @@ namespace ActorPipeTo_2
 {
     public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var system = ActorSystem.Create("ActorPipeTo");
 

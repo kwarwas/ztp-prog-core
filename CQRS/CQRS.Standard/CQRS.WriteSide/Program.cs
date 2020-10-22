@@ -11,7 +11,7 @@ namespace CQRS.WriteSide
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             // NA PODSTAWIE
             //https://devstyle.pl/2016/11/10/cqrsdi-implementacja-w-c-i-autofac/

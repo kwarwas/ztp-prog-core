@@ -15,7 +15,7 @@ namespace SeedNode
     
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var system = ActorSystem.Create("ActorCluster", HoconLoader.FromFile("config.hocon"));
 

@@ -5,7 +5,7 @@ namespace Lighthouse.NetCoreApp
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var lighthouseService = new LighthouseService();
             lighthouseService.Start();

@@ -20,7 +20,7 @@ namespace Receiver_1
 
     class Program
     {
-        static async Task Main(string[] args)
+        static async Task Main()
         {
             Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.Debug()

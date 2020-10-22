@@ -9,7 +9,7 @@ namespace CQRS.ReadSide
 {
     public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var queryHandlerRegistrator = new HandlerRegistrator<IQueryHandler>();
             queryHandlerRegistrator.Register<GetPersonList>(new PersonHandler());

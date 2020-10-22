@@ -7,7 +7,7 @@ namespace ActorBecome
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var system = ActorSystem.Create("ActorBecome");
 
