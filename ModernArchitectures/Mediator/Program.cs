@@ -10,7 +10,7 @@ namespace Mediator
     public class CreateUserAccount : IRequest<Guid>
     {
     }
-    
+
     public class UserAccountCreated : INotification
     {
         public Guid Id { get; }
@@ -29,7 +29,7 @@ namespace Mediator
         {
             _mediator = mediator;
         }
-        
+
         public async Task<Guid> Handle(CreateUserAccount request, CancellationToken cancellationToken)
         {
             await Console.Out.WriteLineAsync("Create User Account Handler");
@@ -37,11 +37,11 @@ namespace Mediator
             var id = Guid.NewGuid();
 
             await _mediator.Publish(new UserAccountCreated(id), cancellationToken);
-            
+
             return id;
         }
     }
-    
+
     public class UserAccountCreatedHandler1 : INotificationHandler<UserAccountCreated>
     {
         public async Task Handle(UserAccountCreated notification, CancellationToken cancellationToken)
@@ -68,12 +68,12 @@ namespace Mediator
 
             var mediator = serviceProvider.GetService<IMediator>();
 
-            if (mediator != null)
-            {
-                var response = await mediator.Send(new CreateUserAccount());
-            
-                Console.WriteLine(response);
-            }
+            if (mediator is null)
+                return;
+
+            var response = await mediator.Send(new CreateUserAccount());
+
+            Console.WriteLine(response);
         }
     }
 }
