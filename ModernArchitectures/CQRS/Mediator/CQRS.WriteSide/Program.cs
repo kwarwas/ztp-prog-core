@@ -5,8 +5,8 @@ using CQRS.Core.Command;
 using CQRS.Core.Event;
 using CQRS.Core.Infrastructure.Cqrs.Commands;
 using CQRS.Core.Infrastructure.Cqrs.Events;
+using CQRS.Model.WriteModel;
 using CQRS.WriteSide.Commands;
-using CQRS.WriteSide.Database.WriteModel;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -20,7 +20,6 @@ namespace CQRS.WriteSide
             // dotnet ef migrations add Init
             
             // RUN
-            // docker run -e MYSQL_ROOT_PASSWORD=password -p 3306:3306 -d dnhsoft/mysql-utf8
             // dotnet ef database update
 
             var serviceProvider = new ServiceCollection()

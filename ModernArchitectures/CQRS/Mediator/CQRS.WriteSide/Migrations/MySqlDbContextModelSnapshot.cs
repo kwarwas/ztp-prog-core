@@ -2,7 +2,6 @@
 using CQRS.WriteSide.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CQRS.WriteSide.Migrations
 {

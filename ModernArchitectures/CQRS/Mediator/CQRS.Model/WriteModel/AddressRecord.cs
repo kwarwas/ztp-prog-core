@@ -1,7 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-
-namespace CQRS.WriteSide.Database.WriteModel
+﻿namespace CQRS.Model.WriteModel
 {
     public enum AddressType
     {
@@ -19,13 +16,5 @@ namespace CQRS.WriteSide.Database.WriteModel
         public AddressType AddressType { get; set; }
         public int PersonId { get; set; }
         public PersonRecord Person { get; set; }
-    }
-    
-    public class AddressRecordConfiguration: IEntityTypeConfiguration<AddressRecord>
-    {
-        public void Configure(EntityTypeBuilder<AddressRecord> builder)
-        {
-            builder.ToTable("Address");
-        }
     }
 }

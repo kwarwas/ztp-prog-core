@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using CQRS.Core.Event;
+using CQRS.Model.ReadModel;
 using CQRS.WriteSide.Database;
-using CQRS.WriteSide.Database.ReadModel;
 using Microsoft.EntityFrameworkCore;
 
 namespace CQRS.WriteSide.Events

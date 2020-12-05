@@ -1,6 +1,6 @@
 ﻿
 using CQRS.Core.Command;
-using CQRS.WriteSide.Database.WriteModel;
+using CQRS.Model.WriteModel;
 
 namespace CQRS.WriteSide.Commands
 {

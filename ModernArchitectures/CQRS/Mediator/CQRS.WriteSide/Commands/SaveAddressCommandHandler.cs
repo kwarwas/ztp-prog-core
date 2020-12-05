@@ -2,8 +2,8 @@
 using System.Threading.Tasks;
 using CQRS.Core.Command;
 using CQRS.Core.Event;
+using CQRS.Model.WriteModel;
 using CQRS.WriteSide.Database;
-using CQRS.WriteSide.Database.WriteModel;
 using CQRS.WriteSide.Events;
 using MediatR;
 
