@@ -5,6 +5,7 @@ using CQRS.Core.Query;
 using CQRS.Model.ReadModel;
 using MySql.Data.MySqlClient;
 using RepoDb;
+using RepoDb.Interfaces;
 
 namespace CQRS.ReadSide.Query
 {
@@ -16,7 +17,8 @@ namespace CQRS.ReadSide.Query
             await using var connection = new MySqlConnection(Program.ConnectionString);
             return await connection.QueryAllAsync<PersonListItemRecord>(
                 "PersonList",
-                cancellationToken: cancellationToken);
+                cancellationToken: cancellationToken,
+                trace: NullLogger<ITrace>.Instance);
         }
     }
 }

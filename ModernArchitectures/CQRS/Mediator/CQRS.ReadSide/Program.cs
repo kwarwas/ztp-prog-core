@@ -39,9 +39,9 @@ namespace CQRS.ReadSide
                 Console.WriteLine($"{person.Id} {person.LastName} {person.AddressesCount}");
             }
 
-            Console.WriteLine("Person with id = 1");
+            Console.WriteLine("Person with id = 2");
             
-            var personDetails = await queryBus.Send<GetPersonDetails, PersonDetailsRecord>(new GetPersonDetails(1));
+            var personDetails = await queryBus.Send<GetPersonDetails, PersonDetailsRecord>(new GetPersonDetails(2));
 
             Console.WriteLine($"{personDetails.FirstName} {personDetails.LastName}");
         }
