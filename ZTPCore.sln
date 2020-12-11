@@ -7,89 +7,89 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RawRabbit", "RawRabbit", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Command", "Command", "{A25C5320-9220-49D6-BED6-8EF598215E90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "RawRabbit\Command\RPC\Messages\Messages.csproj", "{A1E8B811-7D5A-43D5-ADFE-ECFF8761322F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "ModernArchitectures\RawRabbit\Command\RPC\Messages\Messages.csproj", "{A1E8B811-7D5A-43D5-ADFE-ECFF8761322F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "RawRabbit\Command\RPC\Sender\Sender.csproj", "{3EB9607E-2AC3-41B0-97E2-17BC190D8CA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "ModernArchitectures\RawRabbit\Command\RPC\Sender\Sender.csproj", "{3EB9607E-2AC3-41B0-97E2-17BC190D8CA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "RawRabbit\Command\RPC\Receiver\Receiver.csproj", "{1A0C033F-FB7B-47F2-AFDD-63429B52D2FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "ModernArchitectures\RawRabbit\Command\RPC\Receiver\Receiver.csproj", "{1A0C033F-FB7B-47F2-AFDD-63429B52D2FC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Event", "Event", "{B4C36468-9EFE-4193-BB40-D3FC19104222}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "RawRabbit\Event\Messages\Messages.csproj", "{6CF17EB2-21BD-4B9D-B21F-B0369A6F6702}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "ModernArchitectures\RawRabbit\Event\Messages\Messages.csproj", "{6CF17EB2-21BD-4B9D-B21F-B0369A6F6702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "RawRabbit\Event\Sender\Sender.csproj", "{B15B8FFE-5388-4731-9126-44BA4E0C5B9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "ModernArchitectures\RawRabbit\Event\Sender\Sender.csproj", "{B15B8FFE-5388-4731-9126-44BA4E0C5B9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver-1", "RawRabbit\Event\Receiver-1\Receiver-1.csproj", "{ED31BB93-748C-4268-8EC6-7496B3D1C3D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver-1", "ModernArchitectures\RawRabbit\Event\Receiver-1\Receiver-1.csproj", "{ED31BB93-748C-4268-8EC6-7496B3D1C3D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver-2", "RawRabbit\Event\Receiver-2\Receiver-2.csproj", "{6A580778-1581-48D8-B043-930119EDB03B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver-2", "ModernArchitectures\RawRabbit\Event\Receiver-2\Receiver-2.csproj", "{6A580778-1581-48D8-B043-930119EDB03B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RPC", "RPC", "{393D50AE-C703-44B0-8298-486E353B746F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishSubscribe", "PublishSubscribe", "{E3C624EA-F454-4732-86D3-29C02E484F89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "RawRabbit\Command\PublishSubscribe\Messages\Messages.csproj", "{7D96B909-B99A-4097-8919-B6887C0AAE5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "ModernArchitectures\RawRabbit\Command\PublishSubscribe\Messages\Messages.csproj", "{7D96B909-B99A-4097-8919-B6887C0AAE5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "RawRabbit\Command\PublishSubscribe\Sender\Sender.csproj", "{AF61A0F6-AD7B-40A3-9A5C-7A8943F431D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "ModernArchitectures\RawRabbit\Command\PublishSubscribe\Sender\Sender.csproj", "{AF61A0F6-AD7B-40A3-9A5C-7A8943F431D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "RawRabbit\Command\PublishSubscribe\Receiver\Receiver.csproj", "{231EDBE4-0B4C-478D-9107-A38A83D24C34}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "ModernArchitectures\RawRabbit\Command\PublishSubscribe\Receiver\Receiver.csproj", "{231EDBE4-0B4C-478D-9107-A38A83D24C34}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ActorModel", "ActorModel", "{21787409-6E37-4562-9679-FE354938D1E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorDialogue", "ActorModel\ActorDialogue\ActorDialogue.csproj", "{F8D8990E-E832-4A5E-9572-5BCF3F22DB05}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorDialogue", "ModernArchitectures\ActorModel\ActorDialogue\ActorDialogue.csproj", "{F8D8990E-E832-4A5E-9572-5BCF3F22DB05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorTypes", "ActorModel\ActorTypes\ActorTypes.csproj", "{21801BE1-B8E7-4F3C-A0AF-60D4D75D6DAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorTypes", "ModernArchitectures\ActorModel\ActorTypes\ActorTypes.csproj", "{21801BE1-B8E7-4F3C-A0AF-60D4D75D6DAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorRouters", "ActorModel\routers\ActorRouters\ActorRouters.csproj", "{8AB8753C-885F-4DDC-BA2C-CAC1FF13C99D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorRouters", "ModernArchitectures\ActorModel\routers\ActorRouters\ActorRouters.csproj", "{8AB8753C-885F-4DDC-BA2C-CAC1FF13C99D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Router", "Router", "{2555B06A-8548-43BC-AE68-DE18A023D369}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorRouters.HOCON", "ActorModel\routers\ActorRoutersHOCON\ActorRouters.HOCON.csproj", "{2F6A2584-B187-420C-B314-A6756E1EE4AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorRouters.HOCON", "ModernArchitectures\ActorModel\routers\ActorRoutersHOCON\ActorRouters.HOCON.csproj", "{2F6A2584-B187-420C-B314-A6756E1EE4AC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Remote", "Remote", "{24FA5375-6B56-4D85-A909-1AB20E6DB56F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteActor.Common", "ActorModel\remote\RemoteActor.Common\RemoteActor.Common.csproj", "{2764A22B-04A7-41B8-AE51-DD6B3E179E77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteActor.Common", "ModernArchitectures\ActorModel\remote\RemoteActor.Common\RemoteActor.Common.csproj", "{2764A22B-04A7-41B8-AE51-DD6B3E179E77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteActor.Local", "ActorModel\remote\RemoteActor.Local\RemoteActor.Local.csproj", "{430506AA-7427-4036-9CE6-A70FA6C1C094}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteActor.Local", "ModernArchitectures\ActorModel\remote\RemoteActor.Local\RemoteActor.Local.csproj", "{430506AA-7427-4036-9CE6-A70FA6C1C094}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteActor.Remote", "ActorModel\remote\RemoteActor.Remote\RemoteActor.Remote.csproj", "{521BC838-E4D0-4081-AC51-77A284E72A4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteActor.Remote", "ModernArchitectures\ActorModel\remote\RemoteActor.Remote\RemoteActor.Remote.csproj", "{521BC838-E4D0-4081-AC51-77A284E72A4D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PipeTo", "PipeTo", "{4D6DBA0B-1D8C-41DD-8857-6A038ED186FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorPipeTo_1", "ActorModel\pipeto\ActorPipeTo_1\ActorPipeTo_1.csproj", "{25BAC296-A1F0-44D5-8CD6-5D63A5B2B5D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorPipeTo_1", "ModernArchitectures\ActorModel\pipeto\ActorPipeTo_1\ActorPipeTo_1.csproj", "{25BAC296-A1F0-44D5-8CD6-5D63A5B2B5D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorPipeTo_2", "ActorModel\pipeto\ActorPipeTo_2\ActorPipeTo_2.csproj", "{4749A045-4F61-4AFE-8052-8A9B35AE5707}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorPipeTo_2", "ModernArchitectures\ActorModel\pipeto\ActorPipeTo_2\ActorPipeTo_2.csproj", "{4749A045-4F61-4AFE-8052-8A9B35AE5707}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorPipeTo_3", "ActorModel\pipeto\ActorPipeTo_3\ActorPipeTo_3.csproj", "{9408D03B-8962-460A-A3F0-EFFC8E980375}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorPipeTo_3", "ModernArchitectures\ActorModel\pipeto\ActorPipeTo_3\ActorPipeTo_3.csproj", "{9408D03B-8962-460A-A3F0-EFFC8E980375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorScheduler", "ActorModel\ActorScheduler\ActorScheduler.csproj", "{C58F3C52-1D56-4575-9F12-D7167EBD14FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorScheduler", "ModernArchitectures\ActorModel\ActorScheduler\ActorScheduler.csproj", "{C58F3C52-1D56-4575-9F12-D7167EBD14FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorStashing", "ActorModel\ActorStashing\ActorStashing.csproj", "{72309CC2-1941-43BC-AF2D-99D4E3B73469}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorStashing", "ModernArchitectures\ActorModel\ActorStashing\ActorStashing.csproj", "{72309CC2-1941-43BC-AF2D-99D4E3B73469}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorStopping", "ActorModel\ActorStopping\ActorStopping.csproj", "{AAFE16E4-4FCE-4DB4-A63F-433287FD563A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorStopping", "ModernArchitectures\ActorModel\ActorStopping\ActorStopping.csproj", "{AAFE16E4-4FCE-4DB4-A63F-433287FD563A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorSupervisorStrategy", "ActorModel\SupervisorStrategy\ActorSupervisorStrategy.csproj", "{C86B81E7-D065-46C3-BCB7-13EC90E5E402}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorSupervisorStrategy", "ModernArchitectures\ActorModel\SupervisorStrategy\ActorSupervisorStrategy.csproj", "{C86B81E7-D065-46C3-BCB7-13EC90E5E402}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SwitchableBehaviors", "SwitchableBehaviors", "{7018AF25-A269-4F14-8B57-8F2CC0064254}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorBecome", "ActorModel\switchable-behaviors\ActorBecome\ActorBecome.csproj", "{69F63369-BCF1-481D-96A8-2A6CC4BFB275}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorBecome", "ModernArchitectures\ActorModel\switchable-behaviors\ActorBecome\ActorBecome.csproj", "{69F63369-BCF1-481D-96A8-2A6CC4BFB275}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorStacked", "ActorModel\switchable-behaviors\ActorStacked\ActorStacked.csproj", "{2159688F-7FC5-41A7-98E7-8FE83FDC1B7D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorStacked", "ModernArchitectures\ActorModel\switchable-behaviors\ActorStacked\ActorStacked.csproj", "{2159688F-7FC5-41A7-98E7-8FE83FDC1B7D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{8A6CBA33-12E9-45EE-997D-F4338A0DFEC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorPersistence", "ActorModel\persistence\ActorPersistence\ActorPersistence.csproj", "{D4232F45-0C01-40C6-BC09-67E2A34BF4FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorPersistence", "ModernArchitectures\ActorModel\persistence\ActorPersistence\ActorPersistence.csproj", "{D4232F45-0C01-40C6-BC09-67E2A34BF4FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorPersistenceSnapshot", "ActorModel\persistence\ActorPersistenceSnapshot\ActorPersistenceSnapshot.csproj", "{A95E72D7-C17B-4800-88AF-FB7FB335310D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorPersistenceSnapshot", "ModernArchitectures\ActorModel\persistence\ActorPersistenceSnapshot\ActorPersistenceSnapshot.csproj", "{A95E72D7-C17B-4800-88AF-FB7FB335310D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorPersistenceCommandEvent", "ActorModel\persistence\ActorPersistenceCommandEvent\ActorPersistenceCommandEvent.csproj", "{251A1F4E-81A9-49D0-BC46-E6CDB95C1890}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActorPersistenceCommandEvent", "ModernArchitectures\ActorModel\persistence\ActorPersistenceCommandEvent\ActorPersistenceCommandEvent.csproj", "{251A1F4E-81A9-49D0-BC46-E6CDB95C1890}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cluster", "Cluster", "{A9023BA0-6B97-4A78-AB76-E3B4F83CFB3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedNode", "ActorModel\cluster\SeedNode\SeedNode.csproj", "{BC78164D-07C4-4C29-ABAF-557E201F0587}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeedNode", "ModernArchitectures\ActorModel\cluster\SeedNode\SeedNode.csproj", "{BC78164D-07C4-4C29-ABAF-557E201F0587}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNode", "ActorModel\cluster\NonSeedNode\NonSeedNode.csproj", "{D8441CA1-E71F-4AAB-8F73-CF08BBF914B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonSeedNode", "ModernArchitectures\ActorModel\cluster\NonSeedNode\NonSeedNode.csproj", "{D8441CA1-E71F-4AAB-8F73-CF08BBF914B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lighthouse.NetCoreApp", "ActorModel\cluster\Lighthouse.NetCoreApp\Lighthouse.NetCoreApp.csproj", "{7BDB3E91-31C5-428D-A28C-0533FB086FD4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lighthouse.NetCoreApp", "ModernArchitectures\ActorModel\cluster\Lighthouse.NetCoreApp\Lighthouse.NetCoreApp.csproj", "{7BDB3E91-31C5-428D-A28C-0533FB086FD4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRS", "CQRS", "{2BF52DAA-3FC0-4682-8D30-C03EF73C91CF}"
 EndProject
@@ -114,6 +114,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "ModernArchitectures\Mediator\Mediator.csproj", "{44F8D1D8-5E7F-474B-B558-A816F6DF2A05}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceBus", "ServiceBus", "{99C40DDC-6F3D-4BE7-B37B-F8B471EA7E5B}"
+ProjectSection(SolutionItems) = preProject
+	ModernArchitectures\ServiceBus\docker-compose.yml = ModernArchitectures\ServiceBus\docker-compose.yml
+EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Send", "Send", "{9822CFA3-1858-4BA5-9080-F0C64627E97A}"
 EndProject
@@ -121,25 +124,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Publish", "Publish", "{38C6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RequestResponse", "RequestResponse", "{0593FF54-5623-4C25-AFEA-E6CBD02F2AD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "ServiceBus\RequestResponse\Messages\Messages.csproj", "{9CE1C240-E889-4346-8A1C-96BD389FC6B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "ModernArchitectures\ServiceBus\RequestResponse\Messages\Messages.csproj", "{9CE1C240-E889-4346-8A1C-96BD389FC6B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "ServiceBus\RequestResponse\Sender\Sender.csproj", "{6BCBE7BE-DB8A-4087-A783-E993A87319FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "ModernArchitectures\ServiceBus\RequestResponse\Sender\Sender.csproj", "{6BCBE7BE-DB8A-4087-A783-E993A87319FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "ServiceBus\RequestResponse\Receiver\Receiver.csproj", "{B24B628C-2BC0-4631-90C2-09D77E8E486F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "ModernArchitectures\ServiceBus\RequestResponse\Receiver\Receiver.csproj", "{B24B628C-2BC0-4631-90C2-09D77E8E486F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "ServiceBus\Publish\Messages\Messages.csproj", "{69C032DE-52B1-4ABC-96C5-BFA747BE2B21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "ModernArchitectures\ServiceBus\Publish\Messages\Messages.csproj", "{69C032DE-52B1-4ABC-96C5-BFA747BE2B21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver_1", "ServiceBus\Publish\Receiver_1\Receiver_1.csproj", "{284E4EB6-A59B-430C-97AB-AFF754994A33}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver_1", "ModernArchitectures\ServiceBus\Publish\Receiver_1\Receiver_1.csproj", "{284E4EB6-A59B-430C-97AB-AFF754994A33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver_2", "ServiceBus\Publish\Receiver_2\Receiver_2.csproj", "{9BB63CA6-F797-46F7-98E6-1104D7720738}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver_2", "ModernArchitectures\ServiceBus\Publish\Receiver_2\Receiver_2.csproj", "{9BB63CA6-F797-46F7-98E6-1104D7720738}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "ServiceBus\Publish\Sender\Sender.csproj", "{DF0812B4-9DAB-41D7-9BDA-A4D7E5B3E754}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "ModernArchitectures\ServiceBus\Publish\Sender\Sender.csproj", "{DF0812B4-9DAB-41D7-9BDA-A4D7E5B3E754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "ServiceBus\Send\Messages\Messages.csproj", "{074FB27C-AF78-4B64-A9F7-CBEB7CE5F5E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messages", "ModernArchitectures\ServiceBus\Send\Messages\Messages.csproj", "{074FB27C-AF78-4B64-A9F7-CBEB7CE5F5E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "ServiceBus\Send\Sender\Sender.csproj", "{0EC8EE1B-F302-4A21-9C86-3AAE17265F54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "ModernArchitectures\ServiceBus\Send\Sender\Sender.csproj", "{0EC8EE1B-F302-4A21-9C86-3AAE17265F54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "ServiceBus\Send\Receiver\Receiver.csproj", "{15BAE7E2-3AB3-4648-974F-BE1F50C9DC62}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "ModernArchitectures\ServiceBus\Send\Receiver\Receiver.csproj", "{15BAE7E2-3AB3-4648-974F-BE1F50C9DC62}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TipsAndTricks", "TipsAndTricks", "{396ED47E-57B7-4442-94ED-AF388FD94448}"
 EndProject
@@ -1162,5 +1165,8 @@ Global
 		{0D25480B-DC85-415B-BF01-8E0F5235A196} = {1E75DDAB-D908-4918-B7B0-B4360FEBB120}
 		{EDE24435-CBD1-4649-828F-FD1DB42688E6} = {1E75DDAB-D908-4918-B7B0-B4360FEBB120}
 		{B723A81C-2623-4377-A55D-D3517198CC59} = {1E75DDAB-D908-4918-B7B0-B4360FEBB120}
+		{99C40DDC-6F3D-4BE7-B37B-F8B471EA7E5B} = {7A58A34D-344C-40B3-9BC0-3E3D24DF52ED}
+		{9DF184FD-F817-444C-9642-C95223594F14} = {7A58A34D-344C-40B3-9BC0-3E3D24DF52ED}
+		{21787409-6E37-4562-9679-FE354938D1E4} = {7A58A34D-344C-40B3-9BC0-3E3D24DF52ED}
 	EndGlobalSection
 EndGlobal
