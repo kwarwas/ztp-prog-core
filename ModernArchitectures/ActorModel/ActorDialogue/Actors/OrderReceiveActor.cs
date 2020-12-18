@@ -11,16 +11,16 @@ namespace ActorRouters.Actors
     {
         public OrderReceiveActor()
         {
-            Receive<OrderMessage>(message => CalculateTotalPrice(message));
+            ReceiveAsync<OrderMessage>(CalculateTotalPrice);
         }
 
-        private void CalculateTotalPrice(OrderMessage message)
+        private async Task CalculateTotalPrice(OrderMessage message)
         {
             var tasks = message.Names
                 .Select(x => Context.ActorOf<OrderPriceActor>().Ask<decimal>(x))
                 .ToArray();
 
-            Task.WaitAll(tasks);
+            await Task.WhenAll(tasks);
 
             Console.WriteLine("Total price: ${0}", tasks.Sum(x => x.Result));
         }

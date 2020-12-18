@@ -6,7 +6,7 @@ namespace ActorDialogue.Actors
     {
         public OrderPriceActor()
         {
-            Receive<string>(message => GetPrice(message));
+            Receive<string>(GetPrice);
         }
 
         private void GetPrice(string message)

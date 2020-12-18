@@ -8,7 +8,7 @@ namespace ActorDialogue.Actors
     {
         public OrderForwardActor()
         {
-            Receive<OrderMessage>(message => Forward(message));
+            Receive<OrderMessage>(Forward);
         }
 
         private void Forward(OrderMessage message)
