@@ -1,11 +1,10 @@
-﻿using Akka.Actor;
-using System;
-using System.Threading.Tasks;
+﻿using System;
 using System.Linq;
-using ActorDialogue.Actors;
+using System.Threading.Tasks;
 using ActorDialogue.Messages;
+using Akka.Actor;
 
-namespace ActorRouters.Actors
+namespace ActorDialogue.Actors
 {
     public class OrderReceiveActor : ReceiveActor
     {

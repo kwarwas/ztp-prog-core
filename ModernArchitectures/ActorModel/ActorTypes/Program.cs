@@ -9,7 +9,7 @@ namespace ActorTypes
     {
         static void Main()
         {
-            var system = ActorSystem.Create("ActorTypes");
+            using var system = ActorSystem.Create("ActorTypes");
 
             var untypedActor = system.ActorOf<OrderUntypedActor>();
             var typedActor = system.ActorOf<OrderTypedActor>();

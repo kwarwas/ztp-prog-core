@@ -1,5 +1,4 @@
 ﻿using Akka.Actor;
-using RemoteActor.Common.Actors;
 using RemoteActor.Common.Messages;
 using System;
 using Akka.Configuration;
@@ -14,11 +13,6 @@ namespace RemoteActor.Local
             akka {
                 actor {
                     provider = remote
-                    deployment {
-                        /OrderActor {
-                            remote = ""akka.tcp://RemoteActor@127.0.0.1:8099""
-                        }
-                    }
                 }
 
                 remote {
@@ -29,9 +23,9 @@ namespace RemoteActor.Local
                 }
             }");
             
-            var system = ActorSystem.Create("RemoteActor", config);
-
-            var actor = system.ActorOf(Props.Create<OrderActor>(), "OrderActor");
+            var system = ActorSystem.Create("LocalActor", config);
+            
+            var actor = system.ActorSelection("akka.tcp://RemoteActor@127.0.0.1:8099/user/GatewayActor");
 
             for (int i = 1; i <= 5; i++)
             {

@@ -13,8 +13,8 @@ namespace ActorDialogue
 
             var untypedActor = system.ActorOf<OrderForwardActor>();
 
-            untypedActor.Tell(new OrderMessage(10, new[] { "Prod", "Pro" }));
-            
+            untypedActor.Tell(new OrderMessage(10, new[] {"Prod", "Pro"}));
+
             Console.ReadLine();
         }
     }

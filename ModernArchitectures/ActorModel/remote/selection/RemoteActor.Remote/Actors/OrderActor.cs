@@ -1,14 +1,14 @@
-﻿using Akka.Actor;
+﻿using System;
+using Akka.Actor;
 using RemoteActor.Common.Messages;
-using System;
 
-namespace RemoteActor.Common.Actors
+namespace RemoteActor.Remote.Actors
 {
     public class OrderActor : ReceiveActor
     {
         public OrderActor()
         {
-            Receive<OrderMessage>(message => Handle(message));
+            Receive<OrderMessage>(Handle);
         }
 
         private void Handle(OrderMessage message)

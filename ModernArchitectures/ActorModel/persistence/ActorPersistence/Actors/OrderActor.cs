@@ -25,9 +25,9 @@ namespace ActorPersistence.Actors
                 OrderDetails.Add(message);
             });
 
-            Command<OrderDetailsMessage>(message => HandleOrderDetails(message));
-            Command<PriceMessage>(message => HandlePrice(message));
-            Command<ErrorMessage>(message => HandleError(message));
+            Command<OrderDetailsMessage>(HandleOrderDetails);
+            Command<PriceMessage>(HandlePrice);
+            Command<ErrorMessage>(HandleError);
         }
 
         private void HandleOrderDetails(OrderDetailsMessage message)

@@ -26,9 +26,9 @@ namespace ActorPersistenceCommandEvent.Actors
                 OrderDetails.Add(message);
             });
 
-            Command<AddOrderDetails>(command => HandleOrderDetails(command));
-            Command<CalculatePrice>(command => HandlePrice(command));
-            Command<ThrowError>(command => HandleError(command));
+            Command<AddOrderDetails>(HandleOrderDetails);
+            Command<CalculatePrice>(HandlePrice);
+            Command<ThrowError>(HandleError);
         }
 
         private void HandleOrderDetails(AddOrderDetails command)
