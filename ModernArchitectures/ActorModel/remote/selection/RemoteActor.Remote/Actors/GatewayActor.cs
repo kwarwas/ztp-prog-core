@@ -9,7 +9,7 @@ namespace RemoteActor.Remote.Actors
         
         public GatewayActor()
         {
-            Receive<OrderMessage>(message => _orderActor.Forward(message));
+            Receive<OrderMessage>(_orderActor.Forward);
         }
     }
 }

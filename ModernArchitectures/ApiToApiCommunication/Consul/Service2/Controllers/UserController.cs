@@ -19,7 +19,6 @@ namespace Service2.Controllers
         {
             var client = _httpClientFactory.CreateClient("Service1");
             var result = await client.GetAsync("/");
-            return StatusCode(500);
             return Ok(result.Content);
         }
     }
