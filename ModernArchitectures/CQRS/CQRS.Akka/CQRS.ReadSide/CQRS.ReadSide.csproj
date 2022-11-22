@@ -7,7 +7,7 @@
     <ProjectReference Include="..\CQRS.Core\CQRS.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Akka" Version="1.4.13" />
+    <PackageReference Include="Akka" Version="1.4.46" />
     <PackageReference Include="Dapper" Version="2.0.78" />
     <PackageReference Include="Pomelo.Data.MySql" Version="1.0.0" />
   </ItemGroup>
