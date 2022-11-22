@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Akka" Version="1.4.13" />
+    <PackageReference Include="Akka" Version="1.4.46" />
     <PackageReference Include="Akka.Persistence.MongoDb" Version="1.4.12" />
   </ItemGroup>
 </Project>
